@@ -1,32 +1,27 @@
-
 <div class="flex items-center justify-between bg-white p-3">
     <div class="ml-[75px]">
         <img src="img/klassy-logo.png" class="w-3/4" alt="Klassy Logo">
     </div>
 
     <div class="flex gap-[35px]">
-        <div class="mr-4 text-base font-semibold">
-            <a href="">Home</a>
+        <div class="mr-4 text-xl font-semibold">
+            <a href=""class="text-gray-800 hover:text-red-500 transition-colors duration-300">Home</a>
         </div>
 
-        <div class="mr-5 text-base font-semibold">
-            <a href="">About</a>
+        <div class="mr-5 text-xl font-semibold">
+            <a href=""class="text-gray-800 hover:text-red-500 transition-colors duration-300">About</a>
         </div>
 
-        <div class="mr-5 text-base font-semibold">
-            <a href="">Menu</a>
+        <div class="mr-5 text-xl font-semibold">
+            <a href=""class="text-gray-800 hover:text-red-500 transition-colors duration-300">Menu</a>
         </div>
 
-        <div class="mr-5 text-base font-semibold">
-            <a href="">Chefs</a>
+        <div class="mr-5 text-xl font-semibold">
+            <a href=""class="text-gray-800 hover:text-red-500 transition-colors duration-300">Chefs</a>
         </div>
 
-        <div class="mr-5 text-base font-semibold">
-            <a href="">Features</a>
-        </div>
-
-        <div class="mr-5 text-base font-semibold">
-            <a href="">Contact Us</a>
+        <div class="mr-5 text-xl font-semibold">
+            <a href=""class="text-gray-800 hover:text-red-500 transition-colors duration-300">Contact Us</a>
         </div>
     </div>
 </div>
