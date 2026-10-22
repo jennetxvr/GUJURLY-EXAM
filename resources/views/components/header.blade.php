@@ -1,6 +1,6 @@
 <div class="flex items-center justify-between bg-white p-3">
     <div class="ml-[75px]">
-        <img src="img/klassy-logo.png" class="w-3/4" alt="Klassy Logo">
+        <img src="{{ asset ('img/klassy-logo.png') }}" class="w-3/4" alt="Klassy Logo">
     </div>
 
     <div class="flex gap-[35px]">
