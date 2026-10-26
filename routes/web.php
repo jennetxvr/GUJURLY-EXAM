@@ -12,3 +12,7 @@ Route::get('/', function () {
 Route::get('/menu', function () {
     return view('menu');
 })->name('menu');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');

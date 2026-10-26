@@ -21,7 +21,7 @@
         </div>
 
         <div class="text-xl font-semibold">
-            <a href=""class="text-gray-800 hover:text-red-500 transition-colors duration-300">Contact Us</a>
+            <a href="{{route ('contact')}}"class="text-gray-800 hover:text-red-500 transition-colors duration-300">Contact Us</a>
         </div>
     </div>
 </div>

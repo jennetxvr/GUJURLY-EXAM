@@ -6,7 +6,7 @@
 
 
 @section('content')
-    Menu page
+    
 @endsection
 
 
