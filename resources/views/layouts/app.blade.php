@@ -11,16 +11,18 @@
 
  <body>
 
-     <div class="container mx-auto">
-         @include('components.header')
-         <main>
+     @include('components.header')
+
+     <main>
+         <div class="container mx-auto">
              @if (Route::is('home'))
              @endif
 
-             <div class="text-6xl py-12">@yield('content')</div>
-
-
-     </div>
+             <div class="py-12 text-6xl">
+                 @yield('content')
+             </div>
+         </div>
+     </main>
 
      @include('components.footer')
 

@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\MenuController;
 use Illuminate\Support\Facades\Route;
 use App\Models\User;
+use App\Models\Menu;
 use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
@@ -10,9 +12,15 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/menu', function () {
-    return view('menu');
+    $menu = Menu::all();
+    return view('menu', compact('menu'));
 })->name('menu');
+
 
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+
+// Route::get('/menu', [MenuController::class, 'index'])
+    // ->name('menu');

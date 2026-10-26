@@ -10,7 +10,7 @@
 
     </article>
 
-    <div class="text-2xl py-12">Bizin Ulanyjylarymyz! <span>{{ $users->count() }}</span></div>
+    <div class="text-2xl py-12">Our Orders! <span>{{ $users->count() }}</span></div>
 
     <div class="grid grid-cols-2 gap-4 text-2xl">
         @foreach ($users as $user)
