@@ -21,6 +21,10 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('/chefs', function () {
+    return view('chefs');
+})->name('chefs');
+
 
 // Route::get('/menu', [MenuController::class, 'index'])
     // ->name('menu');

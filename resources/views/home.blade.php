@@ -11,7 +11,7 @@
 
 
 
-        <div class="text-2xl py-12">Our Orders! <span>{{ $users->count() }}</span></div>
+        <div class="text-2xl py-12 text-center italic">Our Orders! <span>{{ $users->count() }}</span> <br> Welcome to our café, where great taste meets unforgettable moments. Enjoy freshly prepared dishes, delicious coffee, and a warm, welcoming atmosphere. Every detail is crafted to make your visit special. Come in, relax, and let us make your day a little better.</div>
 
         <div class="grid grid-cols-2 gap-4 text-2xl">
             @foreach ($users as $user)

@@ -9,15 +9,11 @@
         </div>
 
         <div class="text-2xl font-semibold">
-            <a href=""class="text-[#2A1E18] hover:text-red-500 transition-colors duration-300">About</a>
-        </div>
-
-        <div class="text-2xl font-semibold">
             <a href="{{ route('menu') }}"class="text-[2A1E18] hover:text-red-500 transition-colors duration-300">Menu</a>
         </div>
 
         <div class="text-2xl font-semibold">
-            <a href=""class="text-[2A1E18] hover:text-red-500 transition-colors duration-300">Chefs</a>
+            <a href="{{ route('chefs') }}"class="text-[2A1E18] hover:text-red-500 transition-colors duration-300">Chefs</a>
         </div>
 
         <div class="text-2xl font-semibold">
